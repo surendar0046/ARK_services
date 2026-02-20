@@ -1,0 +1,32 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ARK TRUE COOL TECH - Refined Logo with Integrated Plug -->
+  <!-- Color: Professional Deep Blue (#001B54) -->
+  
+  <g transform="translate(80, 60) scale(1.1)">
+    <!-- 1. The Wire Loop (Starts the flow) -->
+    <path d="M100 250 C-20 250 -20 30 100 30" stroke="#001B54" stroke-width="22" stroke-linecap="round" fill="none"/>
+    
+    <!-- 2. Letter A (Integrated Wire) -->
+    <path d="M100 250 V100 C100 70 140 70 140 100 V250 M100 160 H140" stroke="#001B54" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- 3. Letter R -->
+    <path d="M180 250 V100 H220 C250 100 250 160 220 160 H180 M220 160 L250 250" stroke="#001B54" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- 4. Letter K -->
+    <path d="M290 250 V100 M290 170 L340 100 M290 170 L340 250" stroke="#001B54" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- 5. The Connector Wire to Plug (Flowing from the top of K) -->
+    <path d="M340 100 C380 50 420 50 460 70" stroke="#001B54" stroke-width="22" stroke-linecap="round" fill="none"/>
+    
+    <!-- 6. Integrated Plug Symbol at the end of the wire -->
+    <g transform="translate(460, 70) rotate(15)">
+      <!-- Main Plug Body -->
+      <path d="M0 -15 H40 V15 H0 C-10 15 -18 8 -18 0 C-18 -8 -10 -15 0 -15 Z" fill="#001B54"/>
+      <!-- Prongs -->
+      <rect x="40" y="-10" width="15" height="6" rx="2" fill="#001B54"/>
+      <rect x="40" y="4" width="15" height="6" rx="2" fill="#001B54"/>
+      <!-- Lightning Bolt inside plug body -->
+      <path d="M12 -8 L6 2 H12 L9 10 L18 -2 H12 L15 -8 Z" fill="white"/>
+    </g>
+  </g>
+</svg>
