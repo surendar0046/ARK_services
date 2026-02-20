@@ -140,24 +140,24 @@ const AdminDashboard = () => {
                     </div>
 
                     {/* Navigation Tabs */}
-                    <nav className="hidden md:flex items-center bg-gray-50 p-1 rounded-2xl border border-gray-100">
+                    <nav className="flex items-center bg-gray-50 p-1 rounded-2xl border border-gray-100 overflow-x-auto no-scrollbar max-w-[200px] xs:max-w-none">
                         <button
                             onClick={() => setActiveTab('bookings')}
-                            className={`flex items-center gap-2 px-6 py-2.5 rounded-xl font-black transition-all ${activeTab === 'bookings'
+                            className={`flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 rounded-xl font-black transition-all whitespace-nowrap text-sm ${activeTab === 'bookings'
                                 ? 'bg-white text-primary shadow-sm'
                                 : 'text-gray-400 hover:text-gray-600'
                                 }`}
                         >
-                            <LayoutDashboard size={18} /> Bookings
+                            <LayoutDashboard size={18} /> <span className="hidden xs:inline">Bookings</span>
                         </button>
                         <button
                             onClick={() => setActiveTab('analytics')}
-                            className={`flex items-center gap-2 px-6 py-2.5 rounded-xl font-black transition-all ${activeTab === 'analytics'
+                            className={`flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 rounded-xl font-black transition-all whitespace-nowrap text-sm ${activeTab === 'analytics'
                                 ? 'bg-white text-primary shadow-sm'
                                 : 'text-gray-400 hover:text-gray-600'
                                 }`}
                         >
-                            <BarChart3 size={18} /> Analytics
+                            <BarChart3 size={18} /> <span className="hidden xs:inline">Analytics</span>
                         </button>
                     </nav>
                 </div>
